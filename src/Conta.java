@@ -1,5 +1,5 @@
-public class Conta {
-    private double saldo;
+public abstract class Conta {
+    protected double saldo;
     private int agencia;
     private int numero;
     private Cliente titular;
@@ -11,9 +11,7 @@ public class Conta {
         this.numero = numero;
     }
 
-    void deposita(double valor) {
-        this.saldo += valor;
-    }
+    public abstract void deposita(double valor);
 
     public boolean saca(double valor) {
         if (this.saldo >= valor) {
@@ -31,35 +29,35 @@ public class Conta {
         return false;
     }
 
-    public double getSaldo(){
+    public double getSaldo() {
         return this.saldo;
     }
 
-    public int getAgencia (){
+    public int getAgencia() {
         return this.agencia;
-    } 
+    }
 
     public void setAgencia(int agencia) {
-        if(agencia <= 0){
+        if (agencia <= 0) {
             System.out.println("nao pode valor menos igual a 0");
             return;
         }
         this.agencia = agencia;
     }
 
-    public int getNumero(){
+    public int getNumero() {
         return this.numero;
     }
 
-    public void setNumero(int numero){
-        if(numero <= 0 ){
+    public void setNumero(int numero) {
+        if (numero <= 0) {
             System.out.println("Nao pode valor menor igual a 0");
             return;
         }
         this.numero = numero;
     }
 
-    public Cliente getTitular(){
+    public Cliente getTitular() {
         return this.titular;
     }
 
