@@ -1,4 +1,5 @@
 public abstract class Conta {
+
     protected double saldo;
     private int agencia;
     private int numero;
@@ -13,20 +14,17 @@ public abstract class Conta {
 
     public abstract void deposita(double valor);
 
-    public boolean saca(double valor) {
-        if (this.saldo >= valor) {
-            this.saldo -= valor;
-            return true;
+    public void saca(double valor) {
+
+        if (this.saldo < valor) {
+            throw new SaldoInsuficienteException("Saldo: " + this.saldo + ", valor: " + valor);
         }
-        return false;
+        this.saldo -= valor;
     }
 
-    public boolean transfere(double valor, Conta destino) {
-        if (this.saca(valor)) {
-            destino.deposita(valor);
-            return true;
-        }
-        return false;
+    public void transfere(double valor, Conta destino) {
+        this.saca(valor);
+        destino.deposita(valor);
     }
 
     public double getSaldo() {
