@@ -1,0 +1,15 @@
+{
+    "java.dependency.packagePresentation": "flat",
+    "java.dependency.syncWithFolderExplorer": true,
+    "java.configuration.runtimes": [
+        {
+          "name": "JavaSE-16",
+          "path": "/path/to/jdk-16",
+          "default": true
+        },
+        {
+          "name": "JavaSE-15",
+          "path": "/path/to/jdk-15",
+        },
+      ],
+}
