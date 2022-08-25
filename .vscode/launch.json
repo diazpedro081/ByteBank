@@ -1,0 +1,106 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch TesteOutrosWrappers",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.util.TesteOutrosWrappers",
+            "projectName": "Bytebanck_ecbf02c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Teste",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.Teste",
+            "projectName": "Bytebanck_ecbf02c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteArrayDePrimitivos",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.TesteArrayDePrimitivos",
+            "projectName": "Bytebanck_ecbf02c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteArrayReferencias",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.TesteArrayReferencias",
+            "projectName": "Bytebanck_ecbf02c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteContas",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.TesteContas",
+            "projectName": "Bytebanck_ecbf02c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteGuardadorDeReferencias",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.TesteGuardadorDeReferencias",
+            "projectName": "Bytebanck_ecbf02c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteSaca",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.TesteSaca",
+            "projectName": "Bytebanck_ecbf02c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteString",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.TesteString",
+            "projectName": "Bytebanck_ecbf02c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteTributaveis",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.TesteTributaveis",
+            "projectName": "Bytebanck_ecbf02c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Teste(1)",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.util.Teste",
+            "projectName": "Bytebanck_ecbf02c",
+            "args": "15"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteArrayList",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.util.TesteArrayList",
+            "projectName": "Bytebanck_ecbf02c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteArrayListEquals",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.util.TesteArrayListEquals",
+            "projectName": "Bytebanck_ecbf02c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteLinkedList",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.util.TesteLinkedList",
+            "projectName": "Bytebanck_ecbf02c"
+        }
+    ]
+}
