@@ -13,7 +13,7 @@ public class TesteContas {
 		//int a = 3;
 		//int b = a / 0;
 		
-		ContaCorrente outra = null;
+		// ContaCorrente outra = null;
 		//outra.deposita(200.0); 
 
 		ContaCorrente cc = new ContaCorrente(111, 111);

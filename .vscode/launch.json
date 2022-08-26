@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TesteClassAnonima",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.util.TesteClassAnonima",
+            "projectName": "Bytebanck_ecbf02c"
+        },
+        {
+            "type": "java",
             "name": "Launch TesteOutrosWrappers",
             "request": "launch",
             "mainClass": "br.com.bytebank.banco.teste.util.TesteOutrosWrappers",

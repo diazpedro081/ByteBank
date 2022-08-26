@@ -12,8 +12,6 @@ public class TesteArrayDePrimitivos {
 
         int idade4 = idades[3];
 
-        
-
         System.out.println(idade4);
         System.out.println(idades.length);
     }

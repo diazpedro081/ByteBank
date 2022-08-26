@@ -7,11 +7,11 @@ public class TesteInteger {
 
     public static void main(String[] args) {
 
-        int idade = 29; // Integer
-        Integer idadeRef = new Integer(29); // autoboxing
-        System.out.println(idadeRef.doubleValue());
+        // int idade = 29; // Integer
+        // Integer idadeRef = new Integer(29); // autoboxing
+        // System.out.println(idadeRef.doubleValue());
 
-        int valor = idadeRef.intValue(); // unboxing
+        // int valor = idadeRef.intValue(); // unboxing
         String s = args[0]; // 15
         // Integer numero = Integer.valueOf(s);
         int numero = Integer.parseInt(s);
