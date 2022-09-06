@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TesteDeSerializacao",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.io.TesteDeSerializacao",
+            "projectName": "Bytebanck_ecbf02c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteSerializacao",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.io.TesteSerializacao",
+            "projectName": "Bytebanck_ecbf02c"
+        },
+        {
+            "type": "java",
             "name": "Launch TesteClassAnonima",
             "request": "launch",
             "mainClass": "br.com.bytebank.banco.teste.util.TesteClassAnonima",
